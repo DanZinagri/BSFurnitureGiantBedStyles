@@ -16,6 +16,16 @@
   </modDependencies>
   <loadAfter>
     <li>RedMattis.BSFurniture</li>
+    <li>Sarg.AlphaMemes</li>
+    <li>ferny.decorintostyles</li>
+    <li>VanillaExpanded.VMemesE</li>
+    <li>anthitei.athsstylegothic.style</li>
+    <li>anthitei.athsstylenorse.style</li>
+    <li>DSP.HalituisAmaricanous</li>
+    <li>GM.Erotic.Style</li>
+    <li>GM.Nautian.Style</li>
+    <li>Resurrectionem.Romascita</li>
+    <li>det.dwarvenstyle</li>
   </loadAfter>
   <description>Ideology bed styles on giant beds.</description>
 </ModMetaData>
