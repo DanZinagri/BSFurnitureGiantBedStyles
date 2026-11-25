@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Giant beds get the styleable comp their vanilla originals get from style mods (e.g. Alpha Memes). -->
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigBed"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigDoubleBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigDoubleBed"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigRoyalBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigRoyalBed"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigHospitalBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigHospitalBed"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigBedroll"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigBedroll"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="BS_BigDoubleBedroll"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="BS_BigDoubleBedroll"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_Styleable" />
+      </value>
+    </nomatch>
+  </Operation>
+
+</Patch>
